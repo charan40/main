@@ -1,0 +1,30 @@
+body{ /*edit bg of body*/
+    background-image: url("../picture/about/homewallpaper.jpg");
+    background-attachment: fixed; 
+    height: auto;
+    width: 100%;
+}
+.abimg{ /*edit all picture in "about us"*/
+    height: inherit !important;
+    width: 300px;
+    border-radius: 50px;
+}
+.h22{ /*edit text in tag h2*/
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    -webkit-text-stroke: 0.1px white;
+    padding: 10px;
+    background-color: rgb(236, 156, 127);
+    border-radius: 50px;
+}
+
+.abimage :hover{ /*image hover for less capacity*/
+    opacity: 0.9;
+}
+audio{ /*audio tag capacity*/
+    opacity: 0.5;
+}
+audio:hover{ /*audio tag capacity change with 1 s transition*/
+    opacity: 1;
+    transition: 1s;
+}

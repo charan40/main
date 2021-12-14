@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Admin Panel</title>
+</head>
+
+<body style="background-image: url(picture/homewallpaper.jpg);" data-component= "adminproduct">
+  <header style="background-image: url(picture/homewallpaper.jpg); text-align: center;">
+    <img src="picture/logo4.jpg" alt="logo" style="padding: 20px; width: auto; height: 200px;">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(221, 155, 80);">
+      <img src="picture/logo4.jpg" alt="logo" style="width:40px;">
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutus">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/search">Search</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <!-- align element in navbar -->
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login/Admin</a>
+        </li>
+        <form class="form-inline" action="/action_page.php" id="search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <li class="nav-item">
+            <a class="nav-link" href="/result">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/alladd" id="admin1">Admin</a>
+          </li>
+        </form>
+
+      </ul>
+    </nav>
+  </header>
+  <h1 style="font-weight: bold; background: rgb(255, 255, 255); padding: 20px; border-radius: 50px; margin-top: 15px; text-align: center;">USER PANEL</h1>
+  <div class="row" style="justify-content: left; padding: 20px;">
+    <div class="col">
+        <div class="container" style="background-image: url(picture/homewallpaper3.jpg);">
+            <form action="" style="padding: 20px; text-align: center;">
+                <label class="control-label" style="background-color: burlywood; float: left; padding: 3px; border-radius: 50px;"><h6>UserID:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="id" placeholder="User ID" name="stud_id">
+                </div> <br>
+                <label class="control-label" style="background-color: burlywood; float: left; border-radius: 50px;padding: 3px;"><h6>User_Firstname:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="fn" placeholder="Firstname" name="firstname">
+                </div> <br>
+                <label class="control-label" style="background-color: burlywood; float: left; border-radius: 50px;padding: 3px;"><h6>User_Lastname:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="ln" placeholder="Lastname" name="lastname">
+                </div> <br>
+
+                <label class="control-label" style="background-color: burlywood; float: left;border-radius: 50px;padding: 3px;"><h6>User_Email:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="em" placeholder="Email" name="email">
+                </div> <br>
+
+                <label class="control-label" style="background-color: burlywood; border-radius: 50px; float: left;padding: 3px;"><h6>User_Name::</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="us" placeholder="User Name:" name="username">
+                </div> <br>
+
+                <label class="control-label" style="background-color: burlywood;border-radius: 50px;float: left;padding: 3px;"><h6>Password:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="pas" placeholder="User Name:" name="pass">
+                </div> <br>
+
+                <label class="control-label" style="background-color: burlywood; border-radius: 50px; float: left;padding: 3px;"><h6>Role:</h6></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="rl" placeholder="Role:" name="roll">
+                </div>
+                <br><br>
+                <button class="btn btn-primary" style="background-color: chocolate; border-color: coral;">ADD</button>
+                <button class="btn btn-primary" style="background-color: chocolate; border-color: coral;">UPDATE</button>
+                <button class="btn btn-primary" style="background-color: chocolate; border-color: coral;">DELETE</button>
+                <button class="btn btn-primary" style="background-color: chocolate; border-color: coral;">SELECT</button>
+                <button class="btn btn-primary" style="background-color: chocolate; border-color: coral;">SELECT ALL</button>
+                <br><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="container" style="background-image: url(picture/homewallpaper3.jpg); text-align: center; padding: 20px;">
+            <label class="control-label col-sm-2" style="background-color: burlywood; padding-left: 50px; padding-right: 100px;border-radius: 50px;"><h6>Output</h6></label>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>

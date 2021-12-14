@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://localhost:3030/cssabout">
+  <link rel="stylesheet" href="http://localhost:3030/css1"> <!-- call css file style for navbar -->
+  <link rel="icon" href="pic/logo4.jpg" type="image/x-icon">
+  <style>
+    body,
+    h2 {
+      font-family: "Amatic SC", sans-serif
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- open nav -->
+  <div data-component= "about">
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(221, 155, 80);">
+    <a class="navbar-brand" href="#">
+      <img src="pic/logo4.jpg" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost:3030/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/aboutus">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost:3030/search">Search</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <!-- align element in navbar -->
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      <form class="form-inline" action="/action_page.php" id="search">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <!-- <button class="btn btn-success" type="submit"
+          style="background: rgb(245, 139, 0); border-color: rgb(240, 166, 7);">Search</button> -->
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:3030/result">Search</a>
+          </li>
+      </form>
+    </ul>
+  </nav>
+  <!-- close nav -->
+
+  <br><br>
+
+  <div class="image">
+    <div class="row">
+      <div class="col-sm-6" style="text-align: center;">
+        <a href="http://localhost:3030/june"><img src="pic/about/June/Me2.jpg" alt="person1"></a>
+        <h2>Aekkaluk Panyacharoensri 6288031</h2>
+      </div>
+      <div class="col-sm-6" style="text-align: center;">
+        <a href="http://localhost:3030/zeen"><img src="pic/about/Zeen/Profile1.jpg" alt="person2"></a>
+        <h2>Charan Sirijaturontchai 6288043</h2>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-6" style="text-align: center;">
+        <a href="http://localhost:3030/ohm"><img src="pic/about/ohm/im12.jpg" alt="person3"></a>
+        <h2>Detbodi Wetsirikun 6288059</h2>
+      </div>
+      <div class="col-sm-6" style="text-align: center;">
+        <a href="http://localhost:3030/boat"><img src="pic/about/Boat/me2.jpg" alt="person4"></a>
+        <h2>Krittitee Nildam 6288099</h2>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <audio controls autoplay>
+      <!-- add sound with auto play method -->
+      <source src="pic/about/sound1.mp3" type="audio/mpeg">
+    </audio>
+  </footer>
+</div>
+</body>
+
+</html>

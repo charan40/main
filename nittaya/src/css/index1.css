@@ -1,0 +1,79 @@
+body { /*body edit*/
+  background-image     : url('../picture/homewallpaperv2.jpg');
+  background-attachment: fixed;
+  background-size      : contain;
+  background-position  : center;
+
+}
+
+#containpadding { /*edit contaner in the middle of the page in log in*/
+  background-image   : url('../picture/homewallpaper3.jpg');
+  background-repeat  : no-repeat; /*bg with no repeat*/
+  background-position: center; /*align image bg in center*/
+  width              : 500px; 
+  height             : 300px;
+  border             : none; /*none border*/
+  margin-top         : 150px;
+  border-radius      : 50px;
+}
+
+
+#containpadding h1 { /*edit tag h1 in contain padding*/
+  margin-top: 20px;
+}
+
+.btn12 { /*edit all button in the page*/
+  position                   : relative;
+  border                     : none;
+  font-size                  : 18px;
+  color                      : #FFFFFF;
+  padding                    : 5px;
+  width                      : 100px;
+  text-align                 : center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration        : 0.4s;
+  text-decoration            : none;
+  overflow                   : hidden;
+  cursor                     : pointer; /*show the curser as a "pointer" when it was hovered*/
+}
+
+.header { /*edit class header in line 18*/
+  background-image   : url('../picture/Main-bg.jpg');
+  background-size    : contain;
+  background-position: center;
+}
+
+.header .container { /*edit element container in class header in line 19*/
+  text-align: center; /*align text or element in container*/
+}
+/* .imgm {
+  height : auto;
+  width  : 150px;
+  padding: 10px;
+} */
+.header img { /*edit image in class "header"*/
+  height : auto;
+  width  : 150px;
+  padding: 10px;
+}
+
+.c1 {  /*set the position relative in contaner class "c1"*/
+  position: relative;
+
+}
+
+.center { /*allign button in line 75*/
+  margin       : 0;
+  position     : absolute;
+  padding-top  : 20px;
+  top          : 50%;
+  left         : 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform    : translate(-50%, -50%);
+}
+
+.btn12 { /*button line 75 edited*/
+  background-color: rgb(240, 166, 7);
+  border          : none;
+  border-radius   : 100px;
+}

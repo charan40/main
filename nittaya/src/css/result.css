@@ -1,0 +1,40 @@
+.images { /*Responsive in class images line 66,115,117,210,212*/
+    height: auto;
+    width : auto;
+    margin: auto;
+
+}
+/*container overlay*/
+.row3body {
+    position: relative;
+    width   : 100%;
+}
+
+.imagess { /*edit all class "imagess"*/
+    display: block;
+    width  : 100%;
+    height : auto;
+}
+
+.imagess .overlay { /*set up the overlay class for all the elements which are class "imagess"*/
+    display: block;
+    width  : 100%;
+    height : auto;
+}
+
+.overlay { /*set up the overlay effect*/
+    position  : absolute;
+    top       : 0;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    height    : 100%;
+    width     : 100%;
+    opacity   : 0;
+    transition: .5s ease;
+}
+
+.row3body:hover .overlay { /*set hover effect to all row in class in "row3body"*/
+    opacity: 1;
+    transition: 0.5s;
+}

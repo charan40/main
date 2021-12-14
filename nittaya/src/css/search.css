@@ -1,0 +1,41 @@
+#add { /*edit input bar in line 62*/
+    width        : 60%;
+    height       : 25px;
+    margin       : 0 auto;
+    border       : none;
+    /* <-- This thing here */
+    border       : solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.flex-container { /*edit flex-container in line 60*/
+    display         : flex;
+    flex-direction  : row;
+    flex            : 0 0 100%;
+    font-size       : 30px;
+    text-align      : center;
+    justify-content : center;
+    background-image: url('../picture/homewallpaper3.jpg');
+    width           : 100%;
+}
+.bt { /*edit button in line 68 in type btn-primary for full width*/
+    background-color: chocolate;
+    border-color    : rgb(228, 175, 61);
+    flex            : 0 0 100%;
+    border          : none;
+}
+
+.bt:hover { /*hover button effect*/
+    background-color: rgb(240, 166, 7);
+    border-color    : rgb(228, 175, 61);
+    transition      : 0.5s;
+    border          : none;
+}
+body { /*bg body*/
+    background-image: url('../picture/homewallpaperv2.jpg');
+}
+
+.con{ /*align img in container*/
+    text-align: center;
+    padding: 100px;
+}

@@ -1,0 +1,20 @@
+.navbar-nav a:hover { /*tag a in nav effects*/
+    background-color: orange;
+    color           : black;
+}
+
+.navbar-nav a { /*tag a in nav edited*/
+    padding-top    : 14px;
+    padding-bottom : 14px;
+    padding-left   : 20px;
+    padding-right  : 20px;
+    text-decoration: none;
+    transition     : 1s;
+    border         : none;
+}
+
+
+/* .image :hover { 
+    opacity: 0.8s;
+
+} */

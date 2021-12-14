@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://localhost:3030/css1"> <!-- call css file style for navbar -->
+    <link rel="stylesheet" href="http://localhost:3030/csssearch">
+    <title>Search</title>
+    <link rel = "icon" href =  "picture/logo4.jpg" type = "image/x-icon"> 
+  </head>
+<body data-component= "search">
+  <header style="background-image: url(picture/homewallpaper.jpg); text-align: center;">
+    <img src="picture/logo4.jpg" alt="logo" style="padding: 20px; width: auto; height: 200px;">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(221, 155, 80);">
+      <img src="picture/logo4.jpg" alt="logo" style="width:40px;">
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutus">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/search">Search</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <!-- align element in navbar -->
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <form class="form-inline" action="/action_page.php" id="search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <li class="nav-item">
+            <a class="nav-link" href="/result">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/alladd" id="admin1">Admin</a>
+          </li>
+        </form>
+
+      </ul>
+    </nav>
+  </header>
+    
+    <div class="row">
+      <div class="container">
+        <div class="con">
+          <img src="pic/logo4.jpg" alt="logo">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="flex-container">
+        <label>
+          <input type="text" placeholder="Ahead to Menu Gallery" style="text-align: center; height: auto; width: 960px;" id="add">
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="result.html"><button class="btn bt btn-primary btn-block">GO</button></a>
+      </div>
+    </div>
+    <footer>
+      <div class="row" style="height: auto; background-image: url('picture/homewallpaper3.jpg'); margin-top: 10%;">
+        <div class="col-sm-12">
+            <div class="container" style="text-align: center; padding: 20px;">
+                <img src="pic/logo4.jpg" alt="logo" style="width: 10%;">
+            </div>
+        </div>
+    </div>
+    </footer>
+    
+</body>
+</html>

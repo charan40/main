@@ -1,0 +1,169 @@
+.images {
+    /*Responsive in class images line 66,117*/
+    height: auto;
+    width : auto;
+    margin: auto;
+
+}
+h2 {
+    font-family: "Amatic SC", sans-serif;
+    background: rgb(221, 155, 80);
+    color: rgb(233, 211, 179);
+    border-radius: 50px;
+    padding: 10px;
+  }
+.rowhead {
+    /*row properties line 65*/
+    background-image: url('../picture/homepage/homewallpaper2.jpg');
+    height          : 400px;
+}
+
+.container-fluid { /*affect all the contain fluid in line 61 80 and 291*/
+    position: relative;
+    width   : 100%;
+}
+
+.container-fluid .b1 { /*btn button for menu and btn-primary mean button with full width*/
+    position        : absolute; /*absolute will fit the button element to .container-fluid which has position: relative;*/
+    top             : 70%;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    -ms-transform   : translate(-50%, -50%);
+    background-color: rgb(235, 147, 15);
+    color           : white;
+    font-size       : 16px;
+    padding         : 12px 24px;
+    border          : none;
+    cursor          : pointer;
+    border-radius   : 10px;
+}
+
+.container-fluid .bt { /*same as above "btn" but just rename to bt for me, it affect in line 83 - 92 and 294 - 303*/
+    background-color: rgb(255, 153, 0);
+    padding         : 12px 24px;
+    font-size       : 16px;
+    border          : none;
+    cursor          : pointer;
+    position        : absolute;
+}
+
+.c1:hover { /*class "col c1" from the colum which are contain the btn button. the lines which affect are 82-91 252 and 293-302*/
+    background-color: rgb(241, 181, 91);
+}
+
+.row1body { /*first row after navbar*/
+    align-items: center;
+    width      : 100%;
+}
+
+.rowimg { /*first picture after row1*/
+    height: inherit !important;
+    width : 100%;
+}
+
+.row2body {/*2nd row which is contain the button menu bar*/
+    background-image: url('../picture/homepage/homewallpaper2.jpg');
+    height          : auto;
+    width           : 100%;
+}
+
+.row2body .contain1 {/*2nd row which is contain the Slogan of Nittaya in lines 96-111 */
+    margin-top     : 0.5%;
+    justify-content: center;
+    border         : cornsilk;
+}
+
+.contain1 .imgr2 {/*edit image in the "container contain1 in line 109"*/
+    height: inherit !important;
+    width : 100%;
+}
+
+
+.row4body { /*the 3rd row which contain the "recommended menu" in line 119 - 209*/
+    background-image: url('../picture/homepage/homewallpaper2.jpg');
+    height          : auto;
+    width           : 100%;
+    padding-top     : 30px;
+    padding-bottom  : 30px;
+}
+
+.card img { /*edite image in cards element which are in "row4body"*/
+    margin : 10px;
+}
+
+.card img:hover { /*edite image for the hover effect in cards element which are in "row4body"*/
+    opacity   : 1;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.row4body .c1 { /*the container which is contain the tag h1 for recommended menu in line 162-165*/
+    background-color: rgb(211, 155, 51);
+    width           : 100%;
+    border-radius   : 100px;
+    opacity         : 0.8;
+
+}
+
+.c1 a { /*edit tag a in every "container c1" */
+    color: blanchedalmond;
+}
+
+.c1 :hover {/*edit every "container c1" for hover effects*/
+    background-color: chocolate;
+    transition      : 1s;
+}
+
+.c1 { /*edit every "container c1"*/
+    margin-bottom: 6%;
+}
+
+/*container overlay*/
+.row5body { /*set "row5body" position as relative for overlay*/
+    position: relative;
+    width   : 100%;
+}
+
+.row3body { /*set "row3body" position as relative for overlay*/
+    position: relative;
+    width   : 100%;
+}
+
+.imagess { /*edit image which has id "imagess" in line 114, 116, 211, 213*/
+    display: block;
+    width  : 100%;
+    height : auto;
+}
+
+.imagess .overlay { /*set overlay effect for every image in id "imagess" in line 114, 116, 211, 213 */
+    display: block;
+    width  : 100%;
+    height : auto;
+}
+
+.overlay { /*overlay effect*/
+    position  : absolute;
+    top       : 0;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    height    : 100%;
+    width     : 100%;
+    opacity   : 0;
+    transition: .5s ease;
+}
+
+.row5body:hover .overlay { /*overlay effect appearance in "row5body"*/
+    opacity   : 1;
+    transition: 0.5s;
+}
+
+.row3body:hover .overlay { /*overlay effect appearance in "row3body"*/
+    opacity   : 1;
+    transition: 0.5s;
+}
+
+html { /*set all the whole page scroll mouse is smooth*/
+    scroll-behavior: smooth;
+  }
+ 
